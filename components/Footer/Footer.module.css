@@ -1,0 +1,31 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.footer-text{
+    color: gray;
+    padding: 10px;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.under-text-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+@media only screen and (max-width: 414px) {
+    .footer{ 
+        display:none;
+    }
+}
